@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta content="width=dives-width, initial-scale=1.0">
+    <title>string only show</title>
+</head>
+
+<body>
+    <script>
+        document.write('<br>');
+        document.write('<br>');
+
+        //5. string show
+        document.write("String show : ");
+        document.write('<br>');
+        let value = [5, 10, "ram", 20, "bala", 40, "anand"];
+        let numberString = value.filter(function (v) {
+            return typeof v === 'string';
+        });
+        document.write(numberString);
+    </script>
+</body>
+
+</html>
